@@ -50,7 +50,7 @@ echo ""
 echo -e "\033[1;31m≠×≠×≠×≠×≠×≠×≠×≠×[\033[1;33m • \033[1;32mSSHPLUS MANAGER by 
 [#∆∅]John Grimm\033[1;33m •\033[1;31m ]≠×≠×≠×≠×≠×≠×≠×≠×\033[0m"
 echo ""
-echo -ne "\033[1;36mGenerar As Key [N/S]:\033[1;37m "; read key
+echo -ne "\033[1;36mGerar As Keys [N/S]:\033[1;37m "; read key
 echo -e "\033[1;31m════════════════════════════════════════════════════\033[0m"
 echo -ne "\033[1;36mAGUARDE... \033[1;32m OK !\033[1;37m "
 chmod +x list ./list > /dev/null 2>&1
@@ -161,7 +161,7 @@ echo ""
 echo -e "\033[1;31m● \033[1;33mProxy Squid Instalado, Portas: 80, 8080, 3128\033[0m"
 echo -e "\033[1;31m● \033[1;33mOpenSSH rodando nas portas 22 e 443\033[0m"
 echo -e "\033[1;31m● \033[1;33mScript para gerenciamento de usuários instalado\033[0m"
-echo -e "\033[1;31m● \033[1;33mComandos disponíveis Execulte \033[1;32mmenu \033[1;33mou \033[1;32majuda\033[0m"
+echo -e "\033[1;31m● \033[1;33mComandos disponíveis Execute \033[1;32mmenu \033[1;33mou \033[1;32majuda\033[0m"
 echo -e "\033[0;34m═════════════════════════════════════════════════\033[0m"
 echo ""
 sed -i "126d" /etc/ssh/sshd_config > /dev/null 2>&1
